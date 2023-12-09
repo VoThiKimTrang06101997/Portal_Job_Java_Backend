@@ -1,0 +1,19 @@
+package com.r2s.findInternship.data.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
+
+@AllArgsConstructor
+@NoArgsConstructor
+@Data
+@EqualsAndHashCode(callSuper = true)
+public class JobDTO extends JobCreationDTO {
+	private long id;
+	private StatusDTO statusDTO;
+	private int numOfApplication;
+	// private int companyId;
+	// private String companyName;
+
+}
